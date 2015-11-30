@@ -17,8 +17,8 @@ import (
 	"github.com/golang/freetype/raster"
 	"github.com/golang/freetype/truetype"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/math/fixed"
+	"github.com/golang/image/font"
+	"github.com/golang/image/math/fixed"
 )
 
 // Painter implements the freetype raster.Painter and has a SetColor method like the RGBAPainter
